@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rental</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rental.css">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+            body {
+                background: #333333;
+            }
+            .pictures {
+                width:500px;
+                margin: 0 auto;
+            }
+    </style>  
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.pictures').slick({
+                    dots:true,
+                });
+            })
+        </script>       
+</head>
+<body class="background">
+    <div class="top-row">
+        <div class="top-row container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#"><i class="fas fa-user-alt"></i>Personal Account</a></li>
+                        <li><a href="#"><i class="fas fa-shopping-cart"></i>Products</a></li>
+                        <li><a href="#"><i class="far fa-check-square"></i>Checkout</a></li>
+                    </ul>
+                </div>
+                
+                <div class="login col-sm-4">
+                    <p>Welcome to Exquisite Rentals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+              <h4>Start Date:</h4> <input type="date" name="Start">
+        </div>
+            <div class="col-sm-3">
+            <h4>Return Date:</h4> <input type="date" name="Return">
+        </div>
+        <div>
+            <div class="col-sm-3">
+                <h4>Name of car:</h4>
+                <select>
+                   <option>2020 Mustang GT500</option>
+                   <option>2020 Porche 911</option>
+                   <option>2019 Camaro</option>
+                   <option>2019 Mercedes Benz</option>
+                   <option>2019 Lamborghini</option>
+                   <option>2018 Bently</option>
+                   <option>2018 Range Rover</option>
+                   <option>2018 Honda Sport</option>
+                   <option>2018 Challenger</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div class="col-sm-3">
+                <h4>Place Order!</h4> <input class="OrderSubmit" id="SubmitButton">
+            </div>
+        </div>
+    </div>
+    <div class="container Demo">
+        <div class="row">
+            <div class="col-sm-12">
+                    <div class="pictures">
+                            <img src="images/New-2019-Rolls-Royce-Dawn.jpg" alt="slide 1">
+                            <img src="images/lambo.jpg" alt="slide 2">
+                            <img src="images/2020-Mustang-GT500.jpeg" alt="slide 3">
+                            <img src="images/challenger.jpg" alt="slide 4">
+                            <img src="images/2018-bently.jpg" alt="slide 5">
+                            <img src="images/2019-audi-r8jpg.jpg" alt="slide 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>You Were Born To Live Lavish!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href=""><img src="images/2020-bently.jpg">
+                    <p>LUXURY CARS</p>
+            </div>
+            <div class="col-sm-4">
+                <a href=""><img src="images/2019-camaro-ss-convertibler.jpg">
+                    <p>COVERTIBLE</p>
+                
+            </div>
+            <div class="col-sm-4">
+                <a href=""><img src="images/orange-lambo.jpg">
+                    <p>EXOTIC CARS</p>
+            </div>
+        </div>
+    </div>
+    <div class="signup container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Sign Up Now & Become Another Satisfied Customer!</p>
+            </div>
+            <div class="col-sm-6">
+                <form>
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>My Account</h2>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Personal Information</a></li>
+                    <li><a href="#">Addresses</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">Orders History</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2>About Us</h2>
+                <ul>
+                    <li><a href="#">New Products</a></li>
+                    <li><a href="#">Top Sellers</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Manfucturers</a></li>
+                    <li><a href="#">Suppliers</a></li>
+                    <li><a href="#">Our Stores</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2>From Twitter</h2>
+                <p>Someones tweet goes here!</p>
+                <a href="">The twitter link here!</a>
+                <p>Someones tweet goes here!</p>
+                <a href="">The twitter link here!</a>
+            </div>
+            <div class="col-sm-3">
+                <h2>Instagram</h2>
+                <form>
+                    <input type="submit" value="Like!">
+                </form>
+                <p>1452 people like <a href=""></a>.</p>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                <div class="clearfix"></div>
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" bottom container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                    <li><img src="" alt=""></li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <p>&copy; Powered by Sauce God <sup>TM</sup>. All Rights Reserve.</p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

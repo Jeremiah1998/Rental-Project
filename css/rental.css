@@ -1,0 +1,350 @@
+.background{
+    background: url("../images/new\ lambo.jpg") center center fixed;
+
+}
+.top-row{
+    background-color: #0f0b0b;
+    padding: 15px;
+}
+
+.top-row ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+ /* #Navbar li a{ 
+    list-style-type: none;
+  } */
+.Place1{
+    margin-top: 20px;
+}
+.Place2{
+    margin-top: 20px;
+}
+.Place3{
+    margin-top: 20px;
+}
+.signup{
+    margin-top: 70px;
+}
+.Demo{
+margin-top: 20px;
+}
+#Input1{
+    margin-right: 210px;
+    margin-left: 15px;
+    padding:10px;
+    width: 200px;
+    margin-top: 20px;
+}
+#Input2{
+    margin-right: 30px;
+    padding:10px;
+    width: 200px;
+}
+#Input3{
+    margin-left: 160px;
+    padding:10px;
+    width: 200px;
+}
+
+
+.top-row li{
+    display: inline;
+    margin-left: 15px;
+    text-align: left;
+    color: #0f0b0b;
+    padding:40px;
+}
+
+.top-row a{
+    color: #8c8c8c;
+}
+
+.top-row a:hover{
+    color: blue;
+}
+
+.top-row p{
+    color: #8c8c8c;
+    margin-left: 40px;
+}
+
+.login a{
+    color: blue;
+}
+
+.row_two ul{
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px;
+}
+
+.row_two li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+.row_two a{
+    text-decoration: none;
+    background-color: #e0e0de;
+    border-radius: 0;
+    padding: 5px;
+    color: #949494;
+}
+
+.button1 a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.home {
+    background-color: white;
+}
+
+.home ul{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.home li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.home a{
+    color: black;
+    text-decoration: none;
+}
+
+.home a:hover{
+    color: blue;
+}
+
+.latest p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.arrow {
+    text-align: right;
+}
+
+.arrow a{
+    text-decoration: none;
+    background-color: #e0e0de;
+    border-radius: 0;
+    padding: 5px;
+    color: #949494
+}
+
+.items p{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.cart a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.cart1 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;   
+}
+
+.cart2 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.cart3 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.welcome p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.welcome a{
+    color: blue;
+}
+
+.bestseller p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.arrow1 {
+    text-align: right;
+}
+
+.arrow1 a{
+    text-decoration: none;
+    background-color: #e0e0de;
+    border-radius: 0;
+    padding: 5px;
+    color: #949494;
+}
+
+.cart4 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.cart5 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.cart6 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.cart7 a{
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+}
+
+.manufactor p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900px;
+}
+
+.arrow2 {
+    text-align: right;
+}
+
+.arrow2 a{
+    text-decoration: none;
+    background-color: #e0e0de;
+    border-radius: 0;
+    padding: 5px;
+    color: #949494;
+}
+
+.signup {
+    background-color: #d4d4d4;
+    text-align: left;
+}
+
+.email {
+    text-align: center;
+    border: 3px solid yellow;
+}
+
+.footer {
+    background-color: #0f0b0b;
+}
+
+.footer h2{
+    color: white;
+}
+
+.facebook p{
+    color: white;
+}
+
+.twitter p{
+    color: white;
+    font-size: 16px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.twitter a{
+    color: blue;
+}
+
+.like {
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.promo {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer li{
+    list-style-type: square;
+    color: blue;
+    padding-bottom: 10px;
+}
+
+.bottom {
+    background-color: #0f0b0b;
+}
+
+.bottom ul{
+    list-style: none;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+.bottom li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.bottom p{
+    color: white;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-left: 500px;
+}
+.submit {
+    text-decoration: none;
+    background-color: #424a4a;
+    border-radius: 0;
+    padding: 5px;
+    color: white;
+   
+}
+
